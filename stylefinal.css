@@ -6,18 +6,21 @@ h1 {
   font-family: 'Bebas Neue', cursive;
   color: #1C5E90;
   text-align: center;
+  font-size: 3.5em;
 }
 
 h2 {
   font-family: 'Work Sans', sans-serif;
   color: #F1B82D;
   text-align: center;
+  font-size: 2.5em;
 }
 
 h3 {
   font-family: 'Bitter', serif;
   text-align: center;
   color: #900000;
+  font-size: 16px, 1em;
 }
 
 footer {

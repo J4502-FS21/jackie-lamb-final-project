@@ -1,3 +1,3 @@
 # jackie-lamb-final-project
 
-https://github.com/J4502-FS21/jackie-lamb-final-project.git
+https://j4502-fs21.github.io/jackie-lamb-final-project/

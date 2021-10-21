@@ -2,6 +2,10 @@ body{
 background: #FFFFFF
 }
 
+topnav {
+  background-color: #F1B82D;
+}
+
 h1 {
   font-family: 'Bebas Neue', cursive;
   color: #1C5E90;

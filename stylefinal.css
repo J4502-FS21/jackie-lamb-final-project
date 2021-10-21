@@ -2,8 +2,10 @@ body{
 background: #FFFFFF
 }
 
-topnav {
+.topnav {
+  overflow: hidden;
   background-color: #F1B82D;
+  font-family: 'Bitter' serif;
 }
 
 h1 {

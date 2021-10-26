@@ -10,7 +10,7 @@ background: #FFFFFF
 .topnav a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -25,21 +25,21 @@ background: #FFFFFF
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: #FFFFFF;
     padding: 14px 16px;
-    background-color: inherit;
+    background-color: #c4c4c4;
     font-family: inherit;
     margin: 0;
   }
 
   .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #c4c4c4;
+  background-color: #000000;
 }
 
   .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #000000;
+  background-color: #c4c4c4;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;

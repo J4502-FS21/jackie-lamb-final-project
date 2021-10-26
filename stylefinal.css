@@ -110,7 +110,7 @@ footer {
   width: 260px;
 }
 
-.grad-gallery {
+.grad-gallery > h4 {
   align-self: center;
   text-align: center;
   width: 100%;

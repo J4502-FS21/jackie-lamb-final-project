@@ -235,9 +235,10 @@ h3 {
 footer {
   background-color: #F1B82D;
   margin-top: 20px;
-  position: absolute;
+  position: sticky;
   bottom: 0%;
   width: 100%;
+  height: 5%;
   text-align: right;
   display: flex;
   flex-wrap: wrap;

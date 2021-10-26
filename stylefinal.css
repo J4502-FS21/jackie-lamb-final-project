@@ -90,11 +90,11 @@ h3 {
 
 footer {
   background-color: #F1B82D;
-  shape-outside: padding-box;
+  margin-top: 20px;
 
 }
 
-
+/* start index css */
 
 .image-placeholder {
     background-color: #eee;
@@ -110,6 +110,9 @@ footer {
     text-align: center;
     width: 100%;
 }
+
+/* end index css */
+/* start grad plan css */
 
 .grad-gallery {
   background-color: #eee;
@@ -127,6 +130,9 @@ footer {
   text-align: center;
   width: 100%;
 }
+
+/* end grad plan css */
+/* start Extracurricular css */
 
 .group-links {
   display: grid;
@@ -211,6 +217,9 @@ footer {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+/* end Extracurricular css */
+/* start journalismclasses css */
 
 .jclassgrid {
   display: grid;

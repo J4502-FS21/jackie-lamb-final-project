@@ -91,6 +91,7 @@ footer {
 .image-placeholder {
     background-color: #eee;
     display: flex;
+    justify-content: center;
     height: 180px;
     margin: 5px;
     width: 260px;

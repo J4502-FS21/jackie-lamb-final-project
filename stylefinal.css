@@ -135,6 +135,7 @@ h3 {
   justify-content: space-around;
   align-content: center;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .group-links > div {
@@ -232,7 +233,7 @@ h3 {
 footer {
   background-color: #F1B82D;
   margin-top: 20px;
-  position: inherit;
+  position: absolute;
   bottom: 0%;
   width: 100%;
 }

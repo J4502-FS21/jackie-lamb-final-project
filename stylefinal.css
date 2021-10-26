@@ -118,3 +118,10 @@ footer {
   text-align: center;
   width: 100%;
 }
+
+.group-links {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

@@ -85,7 +85,7 @@ h3 {
 
 footer {
   background-color: #F1B82D;
-  padding-top: 20px;
+  shape-outside: padding-box;
 
 }
 

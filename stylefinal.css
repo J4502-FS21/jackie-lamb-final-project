@@ -6,6 +6,8 @@ background: #FFFFFF
   overflow: hidden;
   background-color: #F1B82D;
   font-family: 'Bitter' serif;
+  position: sticky;
+  top: 0px;
 }
 .topnav a {
   float: left;
@@ -91,7 +93,8 @@ h3 {
 footer {
   background-color: #F1B82D;
   margin-top: 20px;
-
+  position: absolute;
+  bottom: 0%;
 }
 
 /* start index css */

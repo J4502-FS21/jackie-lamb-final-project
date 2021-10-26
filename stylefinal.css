@@ -1,4 +1,7 @@
-overflow-y: scroll;
+html {
+min-width: 550px;
+position: relative;
+}
 body{
 background: #FFFFFF
 }

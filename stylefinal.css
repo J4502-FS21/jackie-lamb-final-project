@@ -156,6 +156,7 @@ footer {
 }
 .submitgroup:active {
   background-color: #c4c4c4;
+  color: #000000;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }

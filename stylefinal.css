@@ -153,29 +153,27 @@ footer {
   font-family: 'Bitter', serif;
   font-size-adjust: auto;
   color: #F1B82D;
-  padding: 20px;
-  padding-top: 20px;
   height: 50px;
   width: calc(100% * (1/3) - 10px - 1px);
 }
 
 .grouplinkitemV{
-
+padding: 30px;
 }
 .grouplinkitemCM {
-
+padding: 30px;
 }
 .grouplinkitemKB {
-
+padding: 30px;
 }
 .grouplinkitemMBA {
-
+padding: 30px;
 }
 .grouplinkitemKO  {
-
+padding: 30px;
 }
 .grouplinkitemMA  {
-
+padding: 30px;
 }
 .submitgroup {
   display: flex;

@@ -44,7 +44,6 @@ background: #FFFFFF
   position: absolute;
   background-color: #c4c4c4;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 .dropdown-content a {
@@ -255,4 +254,11 @@ footer {
 .disclaimer {
   font-size: 8px;
   width:200px;
+}
+
+@media screen and (max-width: 480px) {
+.dropdown-content {
+  min-width: 480px
+}
+
 }

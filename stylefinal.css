@@ -127,7 +127,8 @@ footer {
 
 .grouplinkitemV {
   background-color: #1C5E90
-  border: 1px solid #000000;
+  border: 1px solid;
+  border-color: #000000;
   text-align: center;
   grid-column-start: 1;
   grid-column-end: 2;

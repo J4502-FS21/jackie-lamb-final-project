@@ -204,12 +204,16 @@ h3 {
 }
 
 .jclassitem {
+  grid-column-start: 1;
+  grid-column-end: 2;
   background-color: #900000;
   color: #FFFFFF;
   display: flex;
   flex-wrap: wrap;
 }
 .jclassdescript {
+  grid-column-start: 2;
+  grid-column-end: 3;
   background-color: #FFFFFF
   color: #000000;
 }

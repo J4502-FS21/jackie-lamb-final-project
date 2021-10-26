@@ -123,6 +123,8 @@ footer {
 
 .group-links {
   display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   background-color: #FFFFFF;
   justify-content: space-around;
 }
@@ -132,6 +134,7 @@ footer {
   border: 1px solid;
   border-color: #000000;
   text-align: center;
+  padding: 20px;
 }
 
 .grouplinkitemV{

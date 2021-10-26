@@ -95,6 +95,7 @@ footer {
   margin-top: 20px;
   position: absolute;
   bottom: 0%;
+  width: 100%;
 }
 
 /* start index css */
@@ -209,6 +210,9 @@ footer {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  position: absolute;
+  bottom: 10%
+  width: 100%;
 }
 .submitgroup:hover {
   background-color: #c4c4c4

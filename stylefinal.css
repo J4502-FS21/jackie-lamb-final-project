@@ -183,7 +183,7 @@ h3 {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    position: fixed;
+    position: absolute;
     bottom: 5%;
     right: 40%;
     width: 20%;

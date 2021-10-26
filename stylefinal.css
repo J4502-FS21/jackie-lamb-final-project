@@ -6,8 +6,6 @@ background: #FFFFFF
   overflow: hidden;
   background-color: #F1B82D;
   font-family: 'Bitter' serif;
-  position: sticky;
-  top: 0px;
 }
 .topnav a {
   float: left;

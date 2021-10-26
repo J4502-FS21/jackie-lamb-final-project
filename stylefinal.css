@@ -131,9 +131,11 @@ footer {
 
 .group-links > div {
   background-color: #1C5E90;
+  grid-gap: 20px;
   border: 1px solid;
   border-color: #000000;
   text-align: center;
+  color: #F1B82D;
   padding: 20px;
 }
 

@@ -105,6 +105,9 @@ footer {
 .grad-gallery {
   background-color: #eee;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
   height: 180px;
   margin: 5px;
   width: 260px;

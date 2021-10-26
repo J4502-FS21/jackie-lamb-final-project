@@ -199,6 +199,17 @@ footer {
 
 .jclassgrid {
   display: grid;
+}
+
+.jclassitem {
   grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #900000;
+  color: #FFFFFF;
+}
+.jclassdescript {
+  grid-column-start: 2;
   grid-column-end: 4;
+  background-color: #FFFFFF
+  color: #000000;
 }

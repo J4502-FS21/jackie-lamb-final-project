@@ -143,6 +143,7 @@ h3 {
   text-align: center;
   font-family: 'Bitter', serif;
   font-size: 22px;
+  font-size-adjust: auto;
   margin: 20px;
   color: #F1B82D;
   height: 50px;
@@ -181,7 +182,6 @@ h3 {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    position: absolute;
     bottom: 5%;
     right: 40%;
     width: 20%;

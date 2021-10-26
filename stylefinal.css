@@ -242,3 +242,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
+.disclaimer {
+  flex-shrink: 200px
+}

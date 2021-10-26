@@ -10,7 +10,7 @@ background: #FFFFFF
   overflow: hidden;
   background-color: #F1B82D;
   font-family: 'Bitter' serif;
-  position: static;
+  position: inherit;
 }
 .topnav a {
   float: left;

@@ -151,7 +151,7 @@ footer {
 }
 .submitgroup:hover {background-color: #3e8e41}
 .submitgroup:active {
-  background-color: #3e8e41;
+  background-color: #c4c4c4;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }

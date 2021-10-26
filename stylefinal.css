@@ -241,6 +241,7 @@ footer {
   text-align: right;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
 .disclaimer {
   width:200px;

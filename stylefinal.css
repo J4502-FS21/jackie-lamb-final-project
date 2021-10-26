@@ -209,7 +209,7 @@ footer {
   border-radius: 15px;
   box-shadow: 0 9px #999;
   position: absolute;
-  bottom: 10%
+  bottom: 10%;
   width: 100%;
 }
 .submitgroup:hover {

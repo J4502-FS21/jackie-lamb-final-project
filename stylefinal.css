@@ -1,7 +1,7 @@
 body{
 background: #FFFFFF
 }
-
+/* start the css for top nav bar */
 .topnav {
   overflow: hidden;
   background-color: #F1B82D;
@@ -62,6 +62,9 @@ background: #FFFFFF
   display: block;
 }
 
+/* end css for top nav bar */
+/* start fonts, needs fixing */
+
 h1 {
   font-family: 'Bebas Neue', cursive;
   color: #1C5E90;
@@ -83,11 +86,15 @@ h3 {
   font-size: 16px, 1em;
 }
 
+/* end fonts */
+
 footer {
   background-color: #F1B82D;
   shape-outside: padding-box;
 
 }
+
+
 
 .image-placeholder {
     background-color: #eee;

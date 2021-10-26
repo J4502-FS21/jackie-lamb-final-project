@@ -91,11 +91,11 @@ h3 {
 
 .image-placeholder {
     background-color: #eee;
-    display: flex;
+    display: center;
     justify-content: center;
-    height: 180px;
+    height: 200px;
     margin: 5px;
-    width: 260px;
+    width: 360px;
 }
 
 .image-placeholder > h4 {

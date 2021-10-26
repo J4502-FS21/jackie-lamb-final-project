@@ -127,56 +127,44 @@ footer {
   justify-content: space-around;
 }
 
-.grouplinkitemV{
+.group-links > div {
   background-color: #1C5E90
   border: 1px solid;
   border-color: #000000;
   text-align: center;
+}
+
+.grouplinkitemV{
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 .grouplinkitemCM {
-  background-color: #1C5E90
-  border: 1px solid #000000;
-  text-align: center;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 .grouplinkitemKB {
-  background-color: #1C5E90
-  border: 1px solid #000000;
-  text-align: center;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
 }
 .grouplinkitemMBA {
-  background-color: #1C5E90
-  border: 1px solid #000000;
-  text-align: center;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
 }
 .grouplinkitemKO  {
-  background-color: #1C5E90
-  border: 1px solid #000000;
-  text-align: center;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 4;
 }
 .grouplinkitemMA  {
-  background-color: #1C5E90
-  border: 1px solid #000000;
-  text-align: center;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;

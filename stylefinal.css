@@ -101,3 +101,17 @@ footer {
     text-align: center;
     width: 100%;
 }
+
+.grad-gallery {
+  background-color: #eee;
+  display: flex;
+  height: 180px;
+  margin: 5px;
+  width: 260px;
+}
+
+.grad-gallery {
+  align-self: center;
+  text-align: center;
+  width: 100%;
+}

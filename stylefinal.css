@@ -149,7 +149,7 @@ footer {
  border-radius: 15px;
  box-shadow: 0 9px #999;
 }
-.submitgroup:hover {background-color: #3e8e41}
+.submitgroup:hover {background-color: #c4c4c4}
 .submitgroup:active {
   background-color: #c4c4c4;
   box-shadow: 0 5px #666;

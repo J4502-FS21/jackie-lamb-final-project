@@ -197,14 +197,17 @@ h3 {
 /* end Extracurricular css */
 /* start journalismclasses css */
 
-.jclassflex {
-  display: flex;
-  flex-wrap: nowrap;
+.jclassgrid {
+  display: grid;
+  grid-column: auto auto;
+  grid-row: auto auto auto auto
 }
 
 .jclassitem {
   background-color: #900000;
   color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
 }
 .jclassdescript {
   background-color: #FFFFFF

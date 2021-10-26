@@ -125,3 +125,11 @@ footer {
   grid-column-start: 1;
   grid-column-end: 3;
 }
+
+.grouplinkitem {
+  background-color: #1C5E90
+  border: 1px solid #000000;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

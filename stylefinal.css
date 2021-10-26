@@ -136,6 +136,7 @@ h3 {
   align-content: center;
   margin-bottom: 20px;
   position: relative;
+  z-index: 0;
 }
 
 .group-links > div {
@@ -188,6 +189,7 @@ h3 {
     right: 40%;
     width: 20%;
     margin-top: 10px;
+    z-index: 0;
   }
   .submitgroup:hover {
       background-color: #c4c4c4

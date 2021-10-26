@@ -132,6 +132,7 @@ footer {
 .group-links > div {
   background-color: #1C5E90;
   grid-gap: 30px;
+  grid-row-gap: 20px;
   border: 1px solid;
   border-color: #000000;
   text-align: center;

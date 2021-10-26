@@ -135,15 +135,16 @@ footer {
 }
 
 .submitgroup {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
  padding: 15px 25px;
  font-size: 24px;
  cursor: pointer;
  text-align: center;
  text-decoration: none;
  outline: none;
- color: #fff;
- background-color: #4CAF50;
+ color: #F1B82D;
+ background-color: #000000;
  border: none;
  border-radius: 15px;
  box-shadow: 0 9px #999;

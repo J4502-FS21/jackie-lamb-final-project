@@ -46,8 +46,7 @@ background: #FFFFFF
   display: none;
   position: absolute;
   background-color: #c4c4c4;
-  min-width: 160px;
-  z-index: 1;
+  width: 100%;
 }
 .dropdown-content a {
   float: none;
@@ -261,5 +260,8 @@ footer {
 
 @media screen and (min-width: 480px) {
 
-
+.dropdown-content {
+  min-width: 160px;
+  z-index: 1;
+}
 }

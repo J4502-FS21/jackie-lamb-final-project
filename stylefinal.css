@@ -250,7 +250,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
-  clear:both;
 }
 .disclaimer {
   font-size: 8px;
@@ -261,7 +260,7 @@ footer {
 
 .dropdown-content {
   max-width: 160px;
-  max-height: 300px;
+  max-height: 250px;
   z-index: 1;
 }
 }

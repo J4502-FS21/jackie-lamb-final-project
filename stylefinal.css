@@ -250,6 +250,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
+  clear:both;
 }
 .disclaimer {
   font-size: 8px;

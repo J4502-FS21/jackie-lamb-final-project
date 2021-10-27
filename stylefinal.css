@@ -43,7 +43,7 @@ background: #FFFFFF
   background-color: #000000;
 }
 .dropdown-content {
-  display: inline-block;
+  display: none;
   position: absolute;
   background-color: #c4c4c4;
   min-width: 160px;

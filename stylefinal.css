@@ -261,7 +261,7 @@ footer {
 @media screen and (min-width: 480px) {
 
 .dropdown-content {
-  min-width: 160px;
+  max-width: 160px;
   z-index: 1;
 }
 }

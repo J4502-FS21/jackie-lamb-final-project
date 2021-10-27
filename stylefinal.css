@@ -260,6 +260,7 @@ footer {
 
 .dropdown-content {
   max-width: 160px;
+  max-height: inherit;
   z-index: 1;
 }
 }

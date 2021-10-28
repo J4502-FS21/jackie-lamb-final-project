@@ -79,14 +79,14 @@ h2 {
   font-family: 'Work Sans', sans-serif;
   color: #F1B82D;
   text-align: center;
-  font-size: 2em;
+  font-size: 16px, 1em;
 }
 
 h3 {
   font-family: 'Bitter', serif;
   text-align: center;
   color: #900000;
-  font-size: 16px, 1em;
+  font-size: .5em'
 }
 
 /* end fonts */

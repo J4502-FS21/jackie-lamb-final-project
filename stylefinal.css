@@ -2,6 +2,10 @@
 body{
 background: #FFFFFF
 }
+hr {
+  height: 7px;
+  background-color: #000000;
+}
 /* start the css for top nav bar */
 .topnav {
   overflow: hidden;
@@ -250,6 +254,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
+  clear:none;
 }
 .disclaimer {
   font-size: 8px;

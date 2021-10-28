@@ -98,6 +98,7 @@ h3 {
     height: 200px;
     margin: 5px;
     width: 360px;
+    z-index: 300px;
 }
 
 .image-placeholder > h4 {

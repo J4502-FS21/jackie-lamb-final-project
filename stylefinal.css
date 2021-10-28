@@ -273,6 +273,27 @@ h3 {
   align-content: center;
 }
 
+.imageplaceholder {
+    background-color: #eee;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-self: center;
+    height: 200px;
+    margin: 5px;
+    width: 360px;
+    padding: 30px;
+  }
+
+.imageplaceholder > h4 {
+    align-self: center;
+    display:block;
+    text-align: center;
+    width: 100%;
+}
+
+
 /* end links css */
 
 /* start elective css */

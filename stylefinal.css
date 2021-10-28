@@ -178,20 +178,18 @@ h3 {
     padding: 30px;
   }
 .submitgroup {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
     cursor: pointer;
     text-align: center;
-    text-decoration: none;
-    outline: none;
+    padding: 10px;
     color: #F1B82D;
     background-color: #000000;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    position: fixed;
     bottom: 10%;
     width: 40%;
     }

@@ -246,7 +246,7 @@ h3 {
 
 .electiveflex {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-flow: wrap;
 }
 .electiveflex > div {

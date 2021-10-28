@@ -99,6 +99,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    align-self: center;
     height: 200px;
     margin: 5px;
     width: 360px;}
@@ -238,7 +239,25 @@ h3 {
 
 /* end journalismclasses css */
 /* start links css */
+/* end links css */
 
+/* start elective css */
+
+.electiveflex {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.area1 {
+  height:auto;
+  width: 50%;
+  background-color: #1C5E90;
+  border: none;
+  color: #1C5E90;
+  align-content: center;
+}
+
+/* end elective css */
 
 
 

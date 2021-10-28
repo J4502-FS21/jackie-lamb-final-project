@@ -178,7 +178,7 @@ h3 {
     padding: 30px;
   }
 .submitgroup {
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px 25px;
@@ -195,7 +195,6 @@ h3 {
     position: fixed;
     bottom: 10%;
     width: 40%;
-    margin: 0 auto;
     }
   .submitgroup:hover {
       background-color: #c4c4c4

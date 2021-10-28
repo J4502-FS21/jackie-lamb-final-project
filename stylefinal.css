@@ -206,7 +206,8 @@ h3 {
   background-color: #c4c4c4;
   color: #000000;
   box-shadow: 0 5px #666;
-  transform: translateY(4px);}
+  transform: translateY(4px);
+  }
 
 /* end Extracurricular css */
 /* start journalismclasses css */
@@ -250,33 +251,30 @@ h3 {
   align-content: center;
 }
 
+.electiveflex > div {
+  width: calc(100% * (1/3) - 10px - 1px)
+  height: auto;
+}
+
 .area1 {
-  height:auto;
-  width: 40%;
   background-color: #1C5E90;
   border: none;
   color: #F1B82D;
   align-content: center;
 }
 .area2 {
-  height:auto;
-  width: 40%;
   background-color: #F1B82D;
   border: none;
   color: #1C5E90;
   align-content: center;
 }
 .area3 {
-  height:auto;
-  width: 40%;
   background-color: #1C5E90;
   border: none;
   color: #F1B82D;
   align-content: center;
 }
   .area4 {
-    height:auto;
-    width: 40%;
     background-color: #F1B82D;
     border: none;
     color: #1C5E90;

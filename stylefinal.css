@@ -246,8 +246,7 @@ h3 {
 
 .electiveflex {
   display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
+  flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   align-content: center;

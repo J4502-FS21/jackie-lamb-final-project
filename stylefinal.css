@@ -178,7 +178,7 @@ h3 {
     padding: 30px;
   }
 .submitgroup {
-    display: block;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     padding: 15px 25px;

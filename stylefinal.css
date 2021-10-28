@@ -210,7 +210,7 @@ h3 {
 
 .jclassgrid {
   display: grid;
-  grid-column: 30% 70%;
+  grid-column: 70% 30%;
   grid-row: auto auto auto auto
 }
 

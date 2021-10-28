@@ -253,9 +253,33 @@ h3 {
   width: 50%;
   background-color: #1C5E90;
   border: none;
+  color: #F1B82D;
+  align-content: center;
+}
+.area2 {
+  height:auto;
+  width: 50%;
+  background-color: #F1B82D;
+  border: none;
   color: #1C5E90;
   align-content: center;
 }
+.area3 {
+  height:auto;
+  width: 50%;
+  background-color: #1C5E90;
+  border: none;
+  color: #F1B82D;
+  align-content: center;
+}
+  .area4 {
+    height:auto;
+    width: 50%;
+    background-color: #F1B82D;
+    border: none;
+    color: #1C5E90;
+    align-content: center;
+  }
 
 /* end elective css */
 

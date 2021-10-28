@@ -213,7 +213,7 @@ h3 {
 
 .jclassgrid {
   display: grid;
-  grid-column: 70% 30%;
+  grid-column: auto auto;
   grid-row: auto auto auto auto
 }
 

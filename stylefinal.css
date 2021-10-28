@@ -250,7 +250,7 @@ h3 {
   flex-flow: wrap;
 }
 .electiveflex > div {
-  flex: 50%
+  flex: 50%;
   margin: 10px;
 }
 

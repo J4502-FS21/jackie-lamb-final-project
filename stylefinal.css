@@ -239,6 +239,9 @@ h3 {
   display: flex;
   flex-wrap: row wrap;
 }
+.linksflex > div {
+  width: calc(100% * (1/3) - 10px - 1px);
+}
 .academiclinks {
   height: auto;
   margin: 30px;

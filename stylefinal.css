@@ -248,6 +248,24 @@ h3 {
   border-width: 5px;
   align-content: center;
 }
+.careerlinks {
+  height: auto;
+  margin: 30px;
+  padding: 30px;
+  background-color: #FFFFFF;
+  border-color: #000000;
+  border-width: 5px;
+  align-content: center;
+}
+.otherlinks {
+  height: auto;
+  margin: 30px;
+  padding: 30px;
+  background-color: #FFFFFF;
+  border-color: #000000;
+  border-width: 5px;
+  align-content: center;
+}
 
 /* end links css */
 

@@ -210,14 +210,14 @@ h3 {
 
 .jclassgrid {
   display: grid;
-  grid-column: auto auto;
+  grid-column: 30% 70%;
   grid-row: auto auto auto auto
 }
 
 .jclassitem {
   grid-column-start: 1;
   grid-column-end: 2;
-  width: 30%;
+
   background-color: #900000;
   color: #FFFFFF;
   display: flex;
@@ -229,7 +229,6 @@ h3 {
 .jclassdescript {
   grid-column-start: 2;
   grid-column-end: 3;
-  width: 70%;
   background-color: #FFFFFF
   color: #000000;
 }

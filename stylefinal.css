@@ -193,12 +193,11 @@ h3 {
     border-radius: 15px;
     box-shadow: 0 9px #999;
     position: absolute;
-    bottom: 5%;
     right: 40%;
     width: 20%;
     margin-top: 10px;
-    z-index: 0;
-  }
+
+    }
   .submitgroup:hover {
       background-color: #c4c4c4
       color: #000000;
@@ -207,8 +206,7 @@ h3 {
   background-color: #c4c4c4;
   color: #000000;
   box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
+  transform: translateY(4px);}
 
 /* end Extracurricular css */
 /* start journalismclasses css */

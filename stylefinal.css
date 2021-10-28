@@ -254,6 +254,7 @@ h3 {
 .electiveflex > div {
   width: calc(100% * (1/3) - 10px - 1px)
   height: auto;
+  text-align: center;
 }
 
 .area1 {

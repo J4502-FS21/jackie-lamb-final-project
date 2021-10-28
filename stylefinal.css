@@ -249,10 +249,14 @@ h3 {
   flex-direction: column;
   flex-flow: wrap;
 }
+.electiveflex > div {
+  flex: 50%
+  margin: 10px;
+}
 
 .area1 {
   height:auto;
-  width: 40%;
+  width: auto;
   background-color: #1C5E90;
   border: none;
   color: #F1B82D;
@@ -260,7 +264,7 @@ h3 {
 }
 .area2 {
   height:auto;
-  width: 40%;
+  width: auto;
   background-color: #F1B82D;
   border: none;
   color: #1C5E90;
@@ -268,7 +272,7 @@ h3 {
 }
 .area3 {
   height:auto;
-  width: 40%;
+  width: auto;
   background-color: #1C5E90;
   border: none;
   color: #F1B82D;
@@ -276,7 +280,7 @@ h3 {
 }
   .area4 {
     height:auto;
-    width: 40%;
+    width: auto;
     background-color: #F1B82D;
     border: none;
     color: #1C5E90;

@@ -244,6 +244,7 @@ h3 {
 }
 .academiclinks {
   height: auto;
+  width: 40%;
   margin: 30px;
   padding: 30px;
   background-color: #FFFFFF;
@@ -254,6 +255,7 @@ h3 {
 }
 .careerlinks {
   height: auto;
+  width: 40%;
   margin: 30px;
   padding: 30px;
   background-color: #FFFFFF;
@@ -264,6 +266,7 @@ h3 {
 }
 .otherlinks {
   height: auto;
+  width: 40%;
   margin: 30px;
   padding: 30px;
   background-color: #FFFFFF;

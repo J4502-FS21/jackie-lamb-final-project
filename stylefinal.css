@@ -240,7 +240,6 @@ h3 {
   flex-wrap: row wrap;
 }
 .linksflex > div {
-  width: 45%;
   justify-content: center;
   align-items: center;
 }

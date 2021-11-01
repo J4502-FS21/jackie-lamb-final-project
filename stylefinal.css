@@ -237,18 +237,19 @@ h3 {
 /* start links css */
 .linksflex {
   display: flex;
-  flex-wrap: column wrap;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .linksflex > div {
-  width: calc(100%/3 - 10px);
+  width: calc(100%/3 - 10px - 5px);
   justify-content: center;
   align-items: center;
 }
 .academiclinks {
   height: auto;
   shape-outside: border-box;
-  width: 60%;
-  margin: 30px;
+  width: 40%;
+  margin: 10px;
   padding: 30px;
   background-color: #FFFFFF;
   border-style: solid;
@@ -259,8 +260,8 @@ h3 {
 .careerlinks {
   height: auto;
   shape-outside: border-box;
-  width: 60%;
-  margin: 30px;
+  width: 40%;
+  margin: 10px;
   padding: 30px;
   background-color: #FFFFFF;
   border-style: solid;
@@ -271,8 +272,8 @@ h3 {
 .otherlinks {
   height: auto;
   shape-outside: border-box;
-  width: 60%;
-  margin: 30px;
+  width: 40%;
+  margin: 10px;
   padding: 30px;
   background-color: #FFFFFF;
   border-style: solid;
@@ -285,7 +286,7 @@ h3 {
     background-color: #eee;
     display: inline-block;
     justify-content: center;
-    align-self: center;
+
     height: 200px;
     margin: 30px;
     width: 400px;

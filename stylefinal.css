@@ -239,10 +239,12 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 .linksflex > div {
   justify-content: center;
   align-items: center;
+
 }
 .academiclinks {
   height: auto;

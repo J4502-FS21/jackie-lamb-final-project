@@ -238,10 +238,9 @@ h3 {
 .linksflex {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
 }
 .linksflex > div {
-  width: calc(100%/3 - 10px - 5px);
   justify-content: center;
   align-items: center;
 }

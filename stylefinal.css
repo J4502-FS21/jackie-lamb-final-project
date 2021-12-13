@@ -24,7 +24,7 @@ hr {
 }
 .dropdown {
     float: left;
-    overflow: hidden;
+    overflow: visible;
   }
 
   .dropdown .dropbtn {
@@ -38,6 +38,7 @@ hr {
     margin: 0;
     width: 100%;
     text-align: center;
+    height: 100%;
   }
 
   .topnav a:hover, .dropdown:hover .dropbtn {
@@ -48,7 +49,7 @@ hr {
   position: absolute;
   background-color: #c4c4c4;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 .dropdown-content a {
   float: none;

@@ -22,7 +22,7 @@
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
-        <a href="index">Home</a>
+        <a href="index.html">Home</a>
         <a href="journalismclasses.html">Journalism Classes</a>
         <a href="electiveclasses.html">Elective Classes</a>
         <a href="gradplan.html">Graduation Plan</a>
@@ -112,6 +112,24 @@
   </form>
 
   <form>
+     <h3>Have you taken a Behavioral Science (3 credits)? This does not count for any of the upper areas. </h3>
+     <div><input id="No" type="radio" name="behave" value="no">
+     <label for="no">No</label></div>
+
+     <div><input id="yes" type="radio" name="behave" value="yes" class="correct">
+     <label for="yes">Taken.</label></div>
+  </form>
+
+  <form>
+     <h3>Have you taken a Lab Science (at least 3 credits)? This does not count for any of the upper areas. </h3>
+     <div><input id="No" type="radio" name="lab" value="no">
+     <label for="no">No</label></div>
+
+     <div><input id="yes" type="radio" name="lab" value="yes" class="correct">
+     <label for="yes">Yes.</label></div>
+  </form>
+
+  <form>
      <h3>To meet the economics requirement, you must have taken either Econ1000 for 5 credits or Econ 1014 AND 1015 for a combined 6 credits.</h3>
      <div><input id="No" type="radio" name="econ" value="no">
      <label for="no">I have taken neither option.</label></div>
@@ -124,6 +142,18 @@
 
      <div><input id="yes" type="radio" name="econ" value="yes" class="correct">
      <label for="yes">I took econ1014 and econ1015.</label></div>
+  </form>
+
+  <form>
+     <h3>Have you take all of the year two classes? (J2200, J4160, J4180)</h3>
+     <div><input id="No" type="radio" name="year two" value="no">
+     <label for="no">No</label></div>
+
+     <div><input id="Some" type="radio" name="year two" value="some">
+     <label for="some">I have started taking the year two classes</label></div>
+
+     <div><input id="yes" type="radio" name="year two" value="yes" class="correct">
+     <label for="yes">I have completed all three of those classes</label></div>
   </form>
 
   <button class="button" id="submit">Submit</button>

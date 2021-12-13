@@ -22,3 +22,17 @@ submitButton.addEventListener('click', function() {
   answerElement.innerHTML = "You got <span>" + numberOfCorrectAnswers + "</span> out of NUMBER! Compare to the scale at the top.";
 
 });
+
+
+var image = document.getElementById("image");
+           var currentPos = 0;
+           var images = ["foto1.jpg", "foto2.jpg", "foto3.jpg"]
+
+           function nextimage() {
+               if (++currentPos >= images.length)
+                   currentPos = 0;
+
+               image.src = images[currentPos];
+           }
+
+           setInterval(nextimage, 300)

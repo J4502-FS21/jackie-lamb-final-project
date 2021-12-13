@@ -111,6 +111,21 @@
      <label for="yes">I have at least 6 credits in non-lab sciences</label></div>
   </form>
 
+  <form>
+     <h3>To meet the economics requirement, you must have taken either Econ1000 for 5 credits or Econ 1014 AND 1015 for a combined 6 credits.</h3>
+     <div><input id="No" type="radio" name="econ" value="no">
+     <label for="no">I have taken neither option.</label></div>
+
+     <div><input id="Some" type="radio" name="econ" value="some">
+     <label for="some">I have taken one of the 1014/1015 classes so far</label></div>
+
+     <div><input id="yes" type="radio" name="econ" value="yes" class="correct">
+     <label for="yes">I took econ1000.</label></div>
+
+     <div><input id="yes" type="radio" name="econ" value="yes" class="correct">
+     <label for="yes">I took econ1014 and econ1015.</label></div>
+  </form>
+
   <button class="button" id="submit">Submit</button>
 
   <p class="answers" id="answerTally"></p>

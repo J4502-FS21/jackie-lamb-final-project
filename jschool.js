@@ -19,6 +19,6 @@ submitButton.addEventListener('click', function() {
   });
 
 
-  answerElement.innerHTML = "You got <span>" + numberOfCorrectAnswers + "</span> correct!";
+  answerElement.innerHTML = "You got <span>" + numberOfCorrectAnswers + "</span> out of NUMBER! Compare to the scale at the top.";
 
 });

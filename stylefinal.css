@@ -187,6 +187,13 @@ transform: translateY(4px);
 }
 }
 
+#grad {
+  display: block;
+  width: 10%;
+  height: 10%;
+  margin-left: inherit;
+  margin-right: inherit%;
+}
 /* end grad plan css */
 /* start Extracurricular css */
 

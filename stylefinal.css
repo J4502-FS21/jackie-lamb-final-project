@@ -188,11 +188,9 @@ transform: translateY(4px);
 }
 
 #grad {
-  display: block;
-  width: 10%;
-  height: 10%;
-  margin-left: inherit;
-  margin-right: inherit%;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 20%;
 }
 /* end grad plan css */
 /* start Extracurricular css */

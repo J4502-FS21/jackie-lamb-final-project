@@ -115,22 +115,21 @@ h3 {
 /* end index css */
 /* start grad plan css */
 
-.grad-gallery {
-  background-color: #eee;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 180px;
-  margin: 10px;
-  width: 260px;
-  padding: 5px;
+.grad > img {
+  display: inline-block;
+  margin-left: 37.5%;
+  width: 25%;
+  height: 25%;
 }
 
-.grad-gallery > h4 {
-  align-self: center;
-  text-align: center;
-  width: 100%;
+.quiz {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.quiz > form {
+  width: 45%;
 }
 
 form {

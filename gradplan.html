@@ -32,9 +32,13 @@
     </div>
   </div>
 
-  <div id="grad">
+  <div class="grad">
     <img src="gradcap.png" alt="A yellow outline drawing of a graduation cap.">
   </div>
+
+<h2>This grad plan quiz will give you an estimate on how close you are to graduating. This is not 100% accurate. </h2>
+<div class="quiz">
+
   <form>
      <h3>Have you taken all of the year one classes? (J1100, J1200, 1300, 1400)</h3>
      <div><input id="No" type="radio" name="year one" value="no">
@@ -69,6 +73,33 @@
   </form>
 
   <form>
+     <h3>Have you taken a math or quantitative reasoning course?</h3>
+     <div><input id="No" type="radio" name="math" value="no">
+     <label for="no">No</label></div>
+
+     <div><input id="yes" type="radio" name="math" value="yes" class="correct">
+     <label for="yes">Yes</label></div>
+  </form>
+
+  <form>
+     <h3>How about History 1100 or 1200? It doesn't matter which one.</h3>
+     <div><input id="No" type="radio" name="hist" value="no">
+     <label for="no">No</label></div>
+
+     <div><input id="yes" type="radio" name="hist" value="yes" class="correct">
+     <label for="yes">I have</label></div>
+  </form>
+
+  <form>
+     <h3>Have you taken any humanities (3 credits)? This does not count for any of the upper areas. </h3>
+     <div><input id="No" type="radio" name="human" value="no">
+     <label for="no">No</label></div>
+
+     <div><input id="yes" type="radio" name="human" value="yes" class="correct">
+     <label for="yes">Taken.</label></div>
+  </form>
+
+  <form>
      <h3>Have you taken two non-lab sciences for a total of at least 6 credits?</h3>
      <div><input id="No" type="radio" name="nlscience" value="no">
      <label for="no">No</label></div>
@@ -83,6 +114,7 @@
   <button class="button" id="submit">Submit</button>
 
   <p class="answers" id="answerTally"></p>
+</div>
 
 
 

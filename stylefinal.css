@@ -393,7 +393,8 @@ form {
 
 .electiveflex {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  flex-flow: column;
   justify-content: space-around;
   align-items: center;
   align-content: center;
@@ -403,12 +404,12 @@ form {
   color: #000000;
 }
 
+
 .area1 {
   background-color: #1C5E90;
   border: none;
   color: #F1B82D;
   align-content: center;
-  width:90%;
   height: auto;
   text-align: center;
   margin: 10px;
@@ -419,7 +420,6 @@ form {
   border: none;
   color: #1C5E90;
   align-content: center;
-  width: 90%;
   height: auto;
   text-align: center;
   margin: 10px;
@@ -430,7 +430,6 @@ form {
   border: none;
   color: #F1B82D;
   align-content: center;
-  width: 90%;
   height: auto;
   text-align: center;
   margin: 10px;
@@ -441,12 +440,10 @@ form {
     border: none;
     color: #1C5E90;
     align-content: center;
-    width: 90%;
     height: auto;
     text-align: center;
     margin: 10px;
-    padding: 10px;
-  }
+    padding: 10px;}
 
 /* end elective css */
 

@@ -2,15 +2,22 @@
 "use strict";
 
 
-var image = document.getElementById("image");
-           var currentPos = 0;
-           var images = ["foto1.jpg", "tiger-1.jpg", "columns.jpg"]
+var slideIndex = 0;
+showSlides();
 
-           function nextimage() {
-               if (++currentPos >= images.length)
-                   currentPos = 0;
-
-               image.src = images[currentPos];
-           }
-
-           setInterval(nextimage, 300)
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}

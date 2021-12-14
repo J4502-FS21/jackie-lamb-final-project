@@ -101,23 +101,33 @@ a:hover {
 
 /* start index css */
 
-.image-placeholder {
-    background-color: #eee;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-self: center;
-    height: 200px;
-    margin: 5px;
-    width: 360px;}
-
-.image-placeholder > h4 {
-    align-self: center;
-    display:block;
-    text-align: center;
-    width: 100%;
+.myslides {
+  display: none;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
 }
+.picgal {
+  width: 20%;
+  position: relative;
+  margin: auto;
+}
+.picgal > img {
+  width: 25%
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  text-align: center;}
+
+
 
 /* end index css */
 /* start grad plan css */

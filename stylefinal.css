@@ -122,6 +122,10 @@ h3 {
   height: 25%;
 }
 
+#score > h3 {
+  color: #000000;
+}
+
 .quiz {
   display: flex;
   flex-wrap: wrap;
@@ -129,14 +133,13 @@ h3 {
 }
 
 .quiz > form {
-  width: 90%;
+  width: 100%;
 }
 
 form {
   margin: 2rem;
   box-sizing: border-box;
-  border: 2px solid gold;
-  border-radius: 15px;
+  border: 10px solid #F1B82D;
   padding: 1rem 2rem 2rem 2rem;
 }
 

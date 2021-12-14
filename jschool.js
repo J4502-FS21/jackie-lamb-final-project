@@ -19,7 +19,7 @@ submitButton.addEventListener('click', function() {
   });
 
 
-  answerElement.innerHTML = "You got <span>" + numberOfCorrectAnswers + "</span> out of NUMBER! Compare to the scale at the top.";
+  answerElement.innerHTML = "You got <span>" + numberOfCorrectAnswers + "</span> out of 22! Compare to the scale at the top.";
 
 });
 

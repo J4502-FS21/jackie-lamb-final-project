@@ -132,10 +132,6 @@ h3 {
   flex-direction: row;
 }
 
-.quiz > form {
-  width: 100%;
-}
-
 form {
   margin: 2rem;
   box-sizing: border-box;

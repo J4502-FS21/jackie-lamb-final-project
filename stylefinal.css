@@ -129,7 +129,7 @@ h3 {
 }
 
 .quiz > form {
-  width: 45%;
+  width: 90%;
 }
 
 form {
@@ -452,5 +452,5 @@ footer {
 }
 
 .quiz > form {
-  width: 80%;
+  width: 45%;
 }

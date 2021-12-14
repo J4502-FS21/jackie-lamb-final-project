@@ -290,7 +290,7 @@ form {
   display: flex;
   flex-wrap: wrap;
 
-  padding-right: 20px;
+  padding-right: 5px;
   line-height: 150%;
 
 }
@@ -485,3 +485,16 @@ footer {
 .area4 {
   width: 40%;
 }
+
+.jclassitem {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: #900000;
+  color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-right: 20px;
+  line-height: 150%;

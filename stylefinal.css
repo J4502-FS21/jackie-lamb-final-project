@@ -158,7 +158,6 @@ form {
   text-decoration: underline;
 }
 
-
 #submit {
   display: inline-flex;
   justify-content: center;
@@ -181,11 +180,10 @@ form {
     color: #000000;
   }
 #submit:active {
-background-color: #c4c4c4;
-color: #000000;
-box-shadow: 0 5px #666;
-transform: translateY(4px);
-}
+  background-color: #c4c4c4;
+  color: #000000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 #grad {
@@ -278,20 +276,27 @@ transform: translateY(4px);
 .jclassitem {
   grid-column-start: 1;
   grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
 
   background-color: #900000;
   color: #FFFFFF;
   display: flex;
   flex-wrap: wrap;
+
+  padding-right: 20px;
+  line-height: 150%;
+
 }
   .requiredcourses {
-    flex-basis: 300px
+    flex-basis: 300px;
   }
 .jclassdescript {
   grid-column-start: 2;
   grid-column-end: 3;
   background-color: #FFFFFF
   color: #000000;
+  padding: 25px;
 }
 
 /* end journalismclasses css */
@@ -456,6 +461,7 @@ footer {
 }
 
 .electiveflex {
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   flex-basis: auto;

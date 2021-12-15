@@ -1,7 +1,7 @@
 
 body{
-background: #FFFFFF
-}
+  background: #FFFFFF
+  }
 hr {
   height: 7px;
   background-color: #000000;
@@ -109,9 +109,9 @@ h4 {
 }
 
 h5 {font-family: 'Bitter', serif;
-color: #000000;
-font-size: .75em
-}
+  color: #000000;
+  font-size: .75em
+  }
 
 p {
   font-family: 'Work Sans', sans-serif;
@@ -131,15 +131,16 @@ a:hover {
 
 /* start index css */
 
+.picgal {
+  position: relative;
+  margin: auto;
+}
+
 .myslides {
   display: none;
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
-}
-.picgal {
-  position: relative;
-  margin: auto;
 }
 
 .dot {

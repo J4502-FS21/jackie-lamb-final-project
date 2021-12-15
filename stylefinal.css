@@ -42,7 +42,7 @@ hr {
     height: 100%;
   }
 
-  .topnav a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #000000;
 }
 .dropdown-content {
@@ -51,7 +51,9 @@ hr {
   background-color: #c4c4c4;
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
+
 .dropdown-content a {
   float: none;
   color: #900000;

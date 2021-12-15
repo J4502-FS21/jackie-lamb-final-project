@@ -167,8 +167,6 @@ form {
   padding: 1rem 2rem 2rem 2rem;
 }
 
-
-
 .shadow {
   -webkit-box-shadow: 3px 3px 3px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 3px 3px #ccc;  /* Firefox 3.5 - 3.6 */

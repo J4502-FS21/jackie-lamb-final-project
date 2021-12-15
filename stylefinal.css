@@ -136,6 +136,11 @@ a:hover {
   margin: auto;
 }
 
+
+.resize {
+  height: 700px;
+}
+
 .myslides {
   display: none;
   margin-left: auto;
@@ -143,7 +148,14 @@ a:hover {
   vertical-align: middle;
 }
 
+
+
+.myslides > img {
+  width: 100px;
+}
+
 .dot {
+  text-align: center;
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -151,7 +163,7 @@ a:hover {
   border-radius: 50%;
   display: inline-block;
   transition: #000000 0.6s ease;
-  text-align: center;
+
 
 }
 .indexboi {

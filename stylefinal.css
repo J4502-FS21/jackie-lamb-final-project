@@ -13,6 +13,7 @@ hr {
   font-family: 'Bitter' serif;
   position: inherit;
   margin-bottom: 0;
+  text-align: left;
 }
 .topnav a {
   float: left;
@@ -69,6 +70,16 @@ hr {
 /* end css for top nav bar */
 /* start fonts, needs fixing */
 
+.mujsig > img {
+  width: 15%;
+  float: right;
+}
+
+.footerimg > img {
+  width: 10%;
+  float: left;
+}
+
 h1 {
   font-family: 'Bebas Neue', cursive;
   color: #1C5E90;
@@ -112,7 +123,6 @@ a:hover {
   margin: auto;
 }
 
-
 .dot {
   height: 15px;
   width: 15px;
@@ -121,7 +131,9 @@ a:hover {
   border-radius: 50%;
   display: inline-block;
   transition: #000000 0.6s ease;
-  text-align: center;}
+  text-align: center;
+
+}
 
 
 

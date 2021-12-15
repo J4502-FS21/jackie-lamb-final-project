@@ -68,7 +68,7 @@ hr {
 }
 
 /* end css for top nav bar */
-/* start fonts, needs fixing */
+/* start fonts */
 
 .mujsig > img {
   width: 200px;
@@ -169,7 +169,7 @@ a:hover {
 
 }
 .indexboi {
-  padding: 100px;
+  padding: 50px;
 }
 
 
@@ -451,6 +451,10 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+
+  .indexboi {
+    padding: 100px;
+  }
 
   .resize {
     height: 700px;

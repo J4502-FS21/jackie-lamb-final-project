@@ -71,12 +71,12 @@ hr {
 /* start fonts, needs fixing */
 
 .mujsig > img {
-  width: 15%;
+  width: 200px;
   float: right;
 }
 
 .footerimg > img {
-  width: 10%;
+  width: 200px;
   float: left;
 }
 
@@ -134,7 +134,9 @@ a:hover {
   text-align: center;
 
 }
-
+.indexboi {
+  padding: 100px;
+}
 
 
 /* end index css */
